@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+@font-face{
+    src: url(../fonts/Merriweather/Merriweather-Black.ttf);
+    font-family: "merri";
+}
+
+@font-face{
+    src: url(../fonts/Montserrat/Montserrat-Black.ttf);
+    font-family: "mons";
+}
+
+@font-face{
+    src: url(../fonts/Sacramento/Sacramento-Regular.ttf);
+    font-family: "sac";
+}
+@keyframes birdToRight{
+    0%{
+        opacity: 1;
+        transform: translateX(-20vw);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translateX(100vw);
+    }
+}
+
+html{
+    font-size: 62.5%;
+    position: relative;
+}
+.bg{
+    height: 68rem;
+}
+.bird{
+    animation: birdToRight 15s infinite;
+    position: absolute;
+    left: 10rem;
+    width: 15rem;
+    top: 20rem;
+}
+.bird2{
+    animation: birdToRight 20s infinite;
+    position: absolute;
+    left: 7rem;
+    width: 12rem;
+    top: 15rem;
+}
+.cloud-top{
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+    width: 20rem;
+}
+.cloud-bot{
+    position: absolute;
+    top: 30rem;
+    right: 5rem;    
+}
+.txt-head{
+    color: rgb(129, 15, 91);
+    font-size: 5rem;
+    left: 48rem;
+    top: 15rem;
+    position: absolute;
+}
+.sub-head{
+    font-family: merri;
+    font-size: 2rem;
+    color: rgb(158, 53, 123);
+}
+.profile{
+    margin-top: 10rem;
+}
+#propic{
+    position: relative;
+    width:25rem;
+    height: 25rem;
+    left: -5rem;
+}
+h3{
+    color: rgb(129, 15, 91);
+    font-family: mons;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+}
+p{
+    color:rgb(158, 53, 123) ;
+    word-spacing: 0.5rem;
+    font-size: 1.5rem;
+    font-family: merri;
+}
+.status{
+    
+    display: inline-block;
+    position: relative;
+    top: -7rem;
+}
+h1{
+    font-family: sac;
+}
+.addTxt{
+position: relative;
+padding-top: 4rem;
+}
+.address{
+    margin-top: 10rem;
+    height: 11rem;
+    left: 45rem;
+    position: relative;
+    width: 50%;
+    background-color: rgb(241, 201, 228);
+}
+.c1,.c2{
+    position: absolute;
+    display: inline-block;
+    width: 11rem;
+    height: 11rem;
+    border-radius: 100%;
+    background-color: rgb(241, 201, 228);
+}
+.c1{
+    right: -5rem;
+}
+.c2{
+    left: -5rem;
+}
+.house{
+    top: 0.5rem;
+    right: -4.5rem;
+    position: absolute;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+}
+.myskills h3{
+    left: 45rem;
+    position: absolute;
+}
+.kirito{
+    left: 25rem;
+    top: -12rem;
+    height: 25rem;
+    position: relative;
+
+}
+.skills{
+    margin-top: 20rem;
+    height: 100rem;
+}
+.art{
+    top: 0.5rem;
+    right: -4.5rem;
+    position: absolute;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+}
+.artTxt{
+    position: relative;
+    padding-top: 2rem;
+}
+h4{
+    color: rgb(129, 15, 91);
+    font-family: mons;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+.drawing{
+    top: -2rem;
+    height: 11rem;
+    left: 45rem;
+    position: relative;
+    width: 50%;
+    background-color: rgb(241, 201, 228);
+}
+.girl-art{
+    top: -10rem;
+    left: -22rem;
+    position: absolute;
+    width:20rem;
+}
+.note{
+    top: 0.5rem;
+    right: 60rem;
+    position: absolute;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+}
+.singTxt{
+    position: relative;
+    padding-top: 2rem;
+}
+.sing{
+    top: 10rem;
+    height: 11rem;
+    left: 35rem;
+    position: relative;
+    width: 50%;
+    background-color: rgb(241, 201, 228);
+}
+.girl-sing{
+    top: -10rem;
+    left: 70rem;
+    position: absolute;
+    width:17rem;
+}
+.webcon{
+    top: 0.5rem;
+    right: -4.5rem;
+    position: absolute;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+}
+.webTxt{
+    position: relative;
+    padding-top: 2rem;
+}
+.web{
+    top: 23rem;
+    height: 11rem;
+    left: 45rem;
+    position: relative;
+    width: 50%;
+    background-color: rgb(241, 201, 228);
+}
+.girl-web{
+    top: -7rem;
+    left: -22rem;
+    position: absolute;
+    width:23rem;
+}
+.cs{
+    top: 0.5rem;
+    right: 60rem;
+    position: absolute;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+}
+.progTxt{
+    position: relative;
+    padding-top: 2rem;
+}
+.prog{
+    top: 35rem;
+    height: 11rem;
+    left: 35rem;
+    position: relative;
+    width: 50%;
+    background-color: rgb(241, 201, 228);
+}
+.girl-prog{
+    top: -10rem;
+    left:70rem;
+    position: absolute;
+    width:15rem;
+}
+.footer{
+    height: 10rem;
+    position: relative;
+    background: rgb(158, 53, 123);
+    bottom: -50rem;
+}
+.social img{
+    top: 2rem;
+    position: relative;
+    width: 5rem;
+}
+.ps{
+    position: relative;
+    bottom: -20rem;
+}
+.hi{
+    position: relative;
+    right: -13rem;
+}
+.btn{
+    background-color: rgb(158, 53, 123);
+    color: rgb(241, 201, 228);
+    font-size: 2.5rem;
+    font-family: mons;
+    left: -16rem;
+    bottom: -7rem;
+    position: relative;
+    height: 8rem;
+    width: 30rem;
+}
+h5{
+    position: relative;
+    bottom: -2rem;
+    font-size: 1.5rem;
+    color: rgb(241, 201, 228);
+}
